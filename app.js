@@ -5,7 +5,8 @@ export default {
     async getApi(){
         const response = await fetch('/yelpapi');
         const jsonResponse = await response.json();
-        console.log(jsonResponse);
+        return jsonResponse;
     }
 }
+
 
