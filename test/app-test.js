@@ -9,7 +9,11 @@ import app from '../app.js';
         it('gets info from api', () =>{
             const actual = app.getApi();
             assert.notEqual(actual, null);   
+        })
+        it('return json', () => {
+            const expected = 'businesses';
+            
+        })
     })
-})
 
  
